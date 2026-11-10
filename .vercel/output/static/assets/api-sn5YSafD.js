@@ -1,0 +1,1 @@
+import{n as e,t}from"./member-BjuyZrQx.js";var n=(e=600)=>new Promise(t=>setTimeout(t,e));async function r(){return await n(),t.getState().transactions}async function i(){return await n(),e}function a(e){let t=Math.random().toString(36).slice(2,10).toUpperCase();return`DEMO|${e}|${Date.now()}|${t}`}export{r as n,a as r,i as t};
